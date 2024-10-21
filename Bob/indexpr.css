@@ -1,0 +1,77 @@
+.wrapper {
+    background-color: rgb(107, 244, 244);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 70px;
+    align-items: flex-start;
+}
+
+.flex-container {
+    width: 350px;
+    background-color: rgb(255, 255, 255); 
+     
+}
+
+.block {
+    display: inline-block;
+    height: auto;
+    
+}
+
+h4{
+    padding-left: 20px;
+}
+
+p{
+    padding: 20px;
+    
+}
+
+h3 {
+    text-align: center;
+    align-content: center;
+}
+
+.nomer {
+    background-color: rgb(88, 87, 87);
+    margin: 0 auto;
+    width: 350px;
+}
+
+.per {
+    height: 150px;
+}
+
+.vto {
+    height: 100px;
+}
+
+.tre {
+    height: 100px;
+}
+
+.het {
+    height: 220px;
+}
+
+.pat {
+    height: 230px;
+}
+
+.hes{
+    height: 350px;
+}
+
+.sed {
+    height: 100px;
+}
+
+.vos {
+    height: 150px;
+}
+
+.dev {
+    height: 150px;
+}

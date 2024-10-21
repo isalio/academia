@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <form class="form" action="/search" method="ROST">
+        <input class="login" placeholder="username" required/>
+        <input class="login" placeholder="password" type="password" required/>
+        <input class="login" type="number" placeholder="номер число" required/>
+        <input class="login" type="email" placeholder="введите @mail" required/>
+        <input class="login" list="defaultTels" pattern="[8]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" type="tel" placeholder="введите телефон" required/>
+
+        <input type="reset" value="Reset" class="submit_button">
+        <!-- <button class="submit_button">Login</button> -->
+        <input class="submit_button" value="login" type="submit">
+
+        <datalist id="defaultTels">
+            <option value="111-1111-1111"></option>
+            <option value="122-2222-2222"></option>
+            <option value="333-3333-3333"></option>
+            <option value="344-4444-4444"></option>
+        </datalist>
+
+        <select>
+            <option>1d</option>
+            <option>2d</option>
+            <option>3d</option>
+            <option>4d</option>
+        </select>
+
+        <div>
+            <input type="checkbox" id="year">
+            <label for="year">Диме точно больше 18?</label>
+            <textarea></textarea>
+        </div>
+
+        <div>
+            <input type="radio" id="huey" name="drone" value="huey" checked/>
+            <label for="huey">Huey</label>
+        </div>
+
+        <div>
+            <input type="radio" id="dewey" name="drone" value="dewey"/>
+            <label for="dewey">Dewey</label>
+        </div>
+
+        <div>
+            <input type="radio" id="louei" name="drone" value="louei"/>
+            <label for="louei">Louei</label>
+        </div>
+        
+    </form>
+</body>
+</html>

@@ -1,0 +1,20 @@
+.flex-element {
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: aqua;
+}
+
+.flex-container {
+    display: flex;
+    height: 800px;
+    background-color: rgb(75, 74, 74);
+    /* flex-direction: column-reverse; */
+}
+
+.flex-uniq-element {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border: 1px solid rgb(255, 0, 0);
+}

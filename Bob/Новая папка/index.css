@@ -1,0 +1,27 @@
+body{
+    background-color: aqua;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 8px;
+    margin: 0 auto;
+}
+
+.login{
+    border: solid 3px red;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 30px;
+    background-color: darkseagreen;
+}
+
+.submit_button {
+    border-radius: 20px;
+    background-color: black;
+    color: antiquewhite;
+    
+}
